@@ -1,0 +1,41 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+section {
+    text-align: center;
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: 50px auto;
+    position: absolute;
+    top: 1045.1px;
+    text-align:center;	
+	transform: skew(-5deg, 0deg);
+	left: 195.6px;
+}
+
+
+.shiondiv {
+	    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+	position: relative;
+}
+	
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 75px;
+    height: 75px;
+    /* box-shadow: 0 0 0 1px #333333; */
+    /* border: 1px solid #333333; */
+    cursor: pointer;
+line-height: 75px;
+    font-size: 60px;
+}
+
+img {
+	text-align:center;
+}
